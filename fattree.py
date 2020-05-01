@@ -156,7 +156,9 @@ def myFattree():
     
 
     info(' *** Post configure switches and hosts\n')
-    
+#    net.configLinkStatus('s3', 's14', 'down')
+#    net.configLinkStatus('s24', 's21', 'down')
+#    net.configLinkStatus('s11', 's13', 'down')    
 
     CIL(net)
     net.stop()
